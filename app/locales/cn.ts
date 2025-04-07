@@ -7,7 +7,7 @@ const isApp = !!getClientConfig()?.isApp;
 const cn = {
    WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: `点击[这里](/#/auth)输入访问秘钥 🔑;`,
+    Unauthorized: `点击[这里](/#/auth)输入访问秘钥 🔑`,
   },
   Auth: {
     Return: "返回",
@@ -19,7 +19,7 @@ const cn = {
     Later: "稍后再说",
     SaasTips: "我们的应用目前不对外提供服务，敬请谅解。",
     TopTips:
-      "🥳 taul ai",
+      "",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
