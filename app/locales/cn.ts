@@ -5,12 +5,9 @@ import { SAAS_CHAT_UTM_URL } from "@/app/constant";
 const isApp = !!getClientConfig()?.isApp;
 
 const cn = {
-  WIP: "该功能仍在开发中……",
+   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: isApp
-      ? `
-      点击[这里](/#/auth)输入访问秘钥 🔑;
-       `,
+    Unauthorized: `点击[这里](/#/auth)输入访问秘钥 🔑;`,
   },
   Auth: {
     Return: "返回",
