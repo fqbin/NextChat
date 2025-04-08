@@ -1445,8 +1445,6 @@ export function Settings() {
           </div>
         </div>
         <div className="window-actions">
-          <div className="window-action-button"></div>
-          <div className="window-action-button"></div>
           <div className="window-action-button">
             <IconButton
               aria={Locale.UI.Close}
