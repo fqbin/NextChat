@@ -191,7 +191,7 @@ export const Azure = {
 export const Google = {
   ExampleEndpoint: "https://generativelanguage.googleapis.com/",
   ChatPath: (modelName: string) =>
-    `v1beta/models/${modelName}:streamGenerateContent`,
+    `v1/chat/completions`,
 };
 
 export const Baidu = {
