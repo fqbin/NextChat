@@ -24,4 +24,7 @@ jobs:
 
       - name: Build and Push the Docker image
         run: |
-          docker buildx build --platform linux/amd64,linux/arm64 -t fqbin/nextchat:1.0.0 --push .
+          docker buildx build --platform linux/amd64,linux/arm64 \
+            -t fqbin/nextchat:2.15.8 \
+            -t fqbin/nextchat:latest \
+            --push .
