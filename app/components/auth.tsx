@@ -115,12 +115,7 @@ export function AuthPage() {
           type="primary"
           onClick={goChat}
         />
-        <IconButton
-          text={Locale.Auth.SaasTips}
-          onClick={() => {
-            goSaas();
-          }}
-        />
+        <div className={styles["auth-tips"]}>{Locale.Auth.SaasTips}</div>
       </div>
     </div>
   );
